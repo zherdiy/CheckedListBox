@@ -16,11 +16,8 @@ namespace CheckedListBox
         public Form1()
         {
             InitializeComponent();
-            //String[,] myCheckList = new String[2,2] {{ "bit 1", "bit 2", "bit 3" }, { "bit 4", "bit 5", "bit 6" }};
             String[] myCheckList1 = new String[] { "bit 1", "bit 2", "bit 3" };
-            String[] myCheckList2 = new String[] { "bit 4", "bit 5", "bit 6" };
             checkedListBox1.Items.AddRange(myCheckList1); // add list to checkedListBox1
-            checkedListBox1.Items.AddRange(myCheckList2);
             checkedListBox1.CheckOnClick = true; // one click
         }
 
